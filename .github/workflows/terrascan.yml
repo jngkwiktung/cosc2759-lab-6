@@ -9,7 +9,7 @@ permissions:
 jobs:
   terrascan_job:
     runs-on: ubuntu-latest
-    name: terrascan-action
+    name: Terrascan
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
