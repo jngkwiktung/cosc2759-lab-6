@@ -2,7 +2,9 @@ name: Terrascan example
 on: workflow_dispatch
 
 permissions:
-  actions: read
+  # actions: read
+  contents: write
+  security-events: write
 
 jobs:
   terrascan_job:
