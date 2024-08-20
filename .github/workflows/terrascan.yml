@@ -1,6 +1,9 @@
 name: Terrascan example
 on: workflow_dispatch
 
+permissions:
+  actions: read
+
 jobs:
   terrascan_job:
     runs-on: ubuntu-latest
